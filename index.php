@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norrijean O. Tamondong - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.php">Home</a>
+            <a href="contact.php">Contact</a>
+            <a href="admin.php">Admin Panel</a>
+        </nav>
+    </header>
+    <div class="container">
+        <!-- Add your actual image in the same folder and rename it to profile.jpg -->
+        <img src="profile.jpg" alt="Norrijean O. Tamondong" class="profile-img" onerror="this.src='https://via.placeholder.com/150'">
+        <h1 style="text-align: center;">Welcome to My Portfolio!</h1>
+        <h2 style="text-align: center;">Norrijean O. Tamondong</h2>
+        
+        <h3>Brief Introduction / Bio</h3>
+        <p>I am a compassionate caregiver with more than 4 years of experience providing quality care to families, individuals, the elderly, and people with disabilities[cite: 1]. I am skilled at cultivating an atmosphere that is welcoming and secure while also assisting with activities of daily living, medication management, and monitoring of vital signs[cite: 1]. I have a demonstrated history of being able to improve the overall quality of life of those who are in my care[cite: 1].</p>
+        
+        <h3>Work Experience</h3>
+        <ul>
+            <li><strong>Medical Assistant</strong> - Calderon Medical Clinic (Mar - Sep 2024)[cite: 1]</li>
+            <li><strong>Private Caregiver</strong> - Dra. Luiceta Espania (Mar - Apr 2024)[cite: 1]</li>
+            <li><strong>Private Caregiver</strong> - Ms Unice Enali (Nov 2023 - Feb 2024)[cite: 1]</li>
+            <li><strong>Private Caregiver</strong> - Mr Chito Samsun (Jun 2023 - Nov 2023)[cite: 2]</li>
+            <li><strong>Private Caregiver</strong> - Ms Teresita Angeles (Dec 2022 - Jun 2023)[cite: 2]</li>
+            <li><strong>Private Caregiver (COVID-19 Patient)</strong> - Lovely Lim Tan (May 2022 - Nov 2022)[cite: 2]</li>
+            <li><strong>Call Center Agent</strong> - JJDM Company (Jan 2021 - Jan 2023)[cite: 3]</li>
+        </ul>
+        
+        <h3>Education & Training</h3>
+        <ul>
+            <li>National Certificate II (CAREGIVING) - TESDA (Dec 2021 - Dec 2026)[cite: 3]</li>
+            <li>Basic Life Support & CPR Provider (2021)[cite: 3]</li>
+            <li>Senior High School (K-12) - Gabby's Christian School Academy[cite: 3]</li>
+        </ul>
+    </div>
+</body>
+</html>

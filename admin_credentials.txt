@@ -1,0 +1,4 @@
+Admin Login Credentials for Testing:
+
+Username: admin
+Password: 123456
