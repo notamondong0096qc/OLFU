@@ -17,11 +17,30 @@
     <div class="container">
         <h2>Contact Me</h2>
         
-                    <form action="contact.html" method="GET">
-                <label for="visitor_name">Please enter your name:</label>
+          <!--   
+        <form action="contact.html" method="GET">
+         <label for="visitor_name">Please enter your name:</label>
                 <input type="text" id="visitor_name" name="visitor_name" required>
                 <button type="submit" name="submit_name">Continue</button>
             </form>
-            </div>
+          -->
+<form id="contactForm">
+    <label for="visitor_name">Please enter your name:</label>
+    <input type="text" id="visitor_name" name="visitor_name" required>
+    <button type="submit" name="submit_name">Continue</button>
+</form>
+
+<script>
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+        e.preventDefault(); // Stop the page from reloading / sending a POST request
+        const name = document.getElementById('visitor_name').value;
+        
+        // Example: Save the name and redirect, or display a welcome message
+        alert("Hello, " + name + "!");
+        // window.location.href = "thankyou.html"; // Optional redirection
+    });
+</script>
+        
+    </div>
 </body>
 </html>
